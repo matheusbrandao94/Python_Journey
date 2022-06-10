@@ -6,6 +6,7 @@ maior = int(input("Maior Número: "))
 x = random.randint(menor,maior)
 cont = 5
 while cont > 0:
+    print(f"Você tem: {cont} Chances")
     resposta = int(input("Chute um Número: "))
     if resposta == x:
         print("Parabéns Você Ganhou")
